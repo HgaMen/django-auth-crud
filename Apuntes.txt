@@ -1,0 +1,38 @@
+para activar entorno virtual vsc
+
+- Presionar F1
+- Buscar python selected interpreter y dar enter y saldran varas opciones
+- Seleccionar la que tenga el entorno virtual y dar click
+- abrir otra terminal, para estar en el entorno virtual
+
+Tamibien se puede poniendo en la línea de comando: .\env\scripts\activate y dar enter
+
+Instalar DJANGO
+
+pip install django
+django-admin --version // Para ver la vesrsión de django instalada
+
+Para crear proyecto en Django se usa el comando
+django-admin startproject nombredelacarpeta
+
+Para ejecutar el proyecto se pone el comando:
+python manage.py runserver
+
+
+Crear una aplicación en django es con el comando startapp nombreaplicación:
+python manage.py startapp tasks
+
+para que django reconosca la app tasks hay que entrar en la carpeta djangocurd y en settings.py en el 
+apartado INSTALLED_APPS agregar la aplicación 'tasks'
+
+python manage.py migrate  // comando para crear las tablas en la base de datos de sqlite
+
+3:04:49
+
+Super usuario
+hega65
+hga.int2021@gmail.com
+H2g@2024
+
+h2ga 
+H2g@
